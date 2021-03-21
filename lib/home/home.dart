@@ -3,12 +3,12 @@ import 'package:fluttrer_responsive_template/utils/constants.dart';
 
 class HomePage extends StatelessWidget {
   final Widget mobileBody;
-  final Widget tabletBody;
-  final Widget desktopBody;
+  final Widget? tabletBody;
+  final Widget? desktopBody;
 
   const HomePage({
-    Key key,
-    @required this.mobileBody,
+    Key? key,
+    required this.mobileBody,
     this.tabletBody,
     this.desktopBody,
   }) : super(key: key);
